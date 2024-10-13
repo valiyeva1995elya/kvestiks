@@ -1,0 +1,203 @@
+body {
+  color: #424242;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  box-shadow: 0px 0px 10px #c9c9c9;
+  padding: 8px 162px;
+}
+
+main {
+  padding: 24px 162px;
+  background-color: rgba(221, 221, 221, 0.4274509804);
+}
+
+.header-icon {
+  font-size: 10px;
+  color: #383838;
+}
+
+.main-nav {
+  color: #424242;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.card-info {
+  background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 42%, rgba(161, 219, 255, 0) 75%, rgba(161, 219, 255, 0) 100%), url(../img/image5.png);
+  border-radius: 8px;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 361px;
+  border: none;
+  padding: 15px 25px;
+  box-shadow: 0px 0px 3px #c9c9c9;
+}
+
+h1 {
+  font-weight: 800;
+  color: #424242;
+  padding: 5px 10px;
+}
+
+.btn-info {
+  font-size: 10px;
+  font-weight: 400;
+  text-align: right;
+}
+
+.payment {
+  font-size: 13px;
+  color: rgba(56, 56, 56, 0.7411764706);
+  font-weight: 300;
+}
+
+.info {
+  padding: 7px 15px;
+  background-color: rgba(221, 221, 221, 0.4274509804);
+  font-size: 14px;
+  font-weight: 500;
+  color: #424242;
+  margin-right: 10px;
+}
+
+.card-text {
+  font-size: 16px;
+  color: #383838;
+  font-weight: 300;
+}
+
+a {
+  color: #DD4E00;
+}
+
+.btn-pay {
+  margin: 0 20px 20px;
+  background-color: #F77833;
+  border: none;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+sup {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card-com {
+  padding: 25px;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+
+.info-date {
+  font-size: 13px;
+  color: rgba(56, 56, 56, 0.7411764706);
+  font-weight: 300;
+}
+
+.info-com {
+  font-size: 15px;
+  color: #383838;
+  font-weight: 400;
+}
+
+.star {
+  width: 98px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.text-com {
+  font-size: 14px;
+  color: #5E5E5E;
+  font-weight: 400;
+}
+
+.com-overflow {
+  display: grid;
+  grid-auto-flow: dense;
+  grid-auto-columns: 100%;
+  overflow-x: auto;
+}
+
+.item {
+  min-width: 200px;
+  margin-right: 10px;
+  background-color: #383838;
+}
+
+.btn-com {
+  padding: 8px 150px;
+  background-color: #F77833;
+  border: none;
+}
+
+@media (max-width: 575.98px) {
+  header {
+    padding: 10px;
+  }
+  main {
+    padding: 0;
+  }
+  .card-info {
+    background: linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 53%, rgba(161, 219, 255, 0) 70%, rgba(161, 219, 255, 0) 100%), url(../img/cover2.png);
+    border-radius: 0 0 8px 8px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: start;
+    width: 100%;
+    height: 600px;
+    padding: 7px;
+    margin: 0;
+  }
+  .header-mob {
+    display: flex;
+    justify-content: space-around;
+  }
+  h1 {
+    margin-top: 78%;
+    text-align: center;
+    font-size: 25px;
+  }
+  .card-info-text {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 10px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-left: 10px;
+  }
+  .quant-com {
+    font-size: 13px;
+    color: #424242;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  .card-com {
+    padding: 20px;
+    border-radius: 8px;
+    margin-right: 15px;
+  }
+  .btn-com {
+    width: 334px;
+    height: 52px;
+    font-size: 16px;
+    padding: 0;
+  }
+  .pay {
+    width: 100%;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0px 0px 3px #c9c9c9;
+  }
+}/*# sourceMappingURL=styles.css.map */
